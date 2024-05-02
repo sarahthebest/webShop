@@ -1,13 +1,13 @@
 @font-face {
-  font-family: Migra;
-  src: url("/src/assets/fonts/MigraItalic-ExtralightItalic.ttf") format("ttf");
+  font-family: Montreal;
+  src: url("/src/assets/fonts/PPNeueMontreal-Medium.woff2") format("woff2");
 }
 * {
   margin: 0;
   padding: 0;
 }
 :root {
-  font-family: Migra;
+  font-family: Montreal;
 }
 #root {
   height: 200vh;
@@ -18,14 +18,13 @@
 }
 
 #logo {
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
 }
 
 .links {
   width: 100%;
-  font-size: 1.5rem;
-  font-style: italic;
+  font-size: 1.2rem;
   height: 60px;
   border: 2px black solid;
   border-left:none;border-right:none;
