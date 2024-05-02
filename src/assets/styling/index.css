@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Migra;
+  src: url("/src/assets/fonts/MigraItalic-ExtralightItalic.ttf") format("ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-family: Migra;
+}
+#root {
+  height: 200vh;
+}
+
+.nav {
+  width: 100%;
+}
+
+#logo {
+  height: 60px;
+  width: 60px;
+}
+
+.links {
+  width: 100%;
+  font-size: 1.5rem;
+  font-style: italic;
+  height: 60px;
+  border: 2px black solid;
+  border-left:none;border-right:none;
+}
