@@ -11,8 +11,8 @@ const Navbar = () => {
           />
         </div>
         <div className="row flex">
-          <ul className="links list-none flex flex-row gap-5 justify-center items-center border-2">
-          <li className="hover:scale-110">
+          <ul className="links list-none flex flex-row gap-5 justify-center items-center border-t border-b border-black">
+            <li className="hover:scale-110">
               <a href="">Bestsellers</a>
             </li>
             <li className="hover:scale-110">
