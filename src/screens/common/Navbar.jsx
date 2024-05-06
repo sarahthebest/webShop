@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="nav grid-cols-6 grid-rows-2 justify-center bg-rose-400 sticky top-0">
+      <div className="nav grid-cols-6 grid-rows-2 justify-center bg-slate-100 sticky top-0">
         <div className="row flex justify-center relative">
           <img
             src="src\assets\img\logo.webp"

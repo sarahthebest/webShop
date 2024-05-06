@@ -11,8 +11,8 @@
 
 .btn {
   padding: 10px;
-  background-color: whitesmoke;
-  border: 1px black solid;
+  background-color: black;
+  color: white;
 }
 
 /* NAVBAR */
