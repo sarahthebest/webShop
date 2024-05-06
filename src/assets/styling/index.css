@@ -1,13 +1,9 @@
-@font-face {
-  font-family: Montreal;
-  src: url("/src/assets/fonts/PPNeueMontreal-Medium.woff2") format("woff2");
-}
 * {
   margin: 0;
   padding: 0;
 }
 :root {
-  font-family: Montreal;
+  font-family: fantasy;
 }
 #root {
   height: 200vh;
@@ -22,7 +18,8 @@
 /* NAVBAR */
 .nav {
   width: 100%;
-  z-index: 1;
+  z-index: 3;
+  height: 156px;
 }
 #logo {
   height: 80px;
@@ -35,6 +32,47 @@
   height: 60px;
 }
 
+.subMenu {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+  margin-top: 14px;
+  height: 220px;
+}
+
+.listGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: 2;
+  row-gap: 0px;
+  column-gap: 20px;
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 30rem;
+}
+
+.menuIMG {
+  height: 160px;
+  width: 260px;
+}
+
+div.subMenu ul li {
+  font-size: 0.9rem;
+  height: fit-content;
+  margin: 0;
+}
+
+div.subMenu h3 {
+  font-size: 1rem;
+  height: fit-content;
+  margin: 0;
+}
+
+div.imgContainer h4 {
+  font-size: 1rem;
+}
+
 /* HEADER */
 .header {
   height: 600px;
@@ -45,5 +83,9 @@
   height: 100%;
   z-index: 0;
 }
-#bg {
+
+/* CAROUSEL */
+
+.imagePreview{
+  height: 320px;
 }
