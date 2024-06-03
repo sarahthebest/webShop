@@ -1,0 +1,94 @@
+{
+    "rings": {
+      "title": "Rings",
+      "links": [
+        "Engagement Rings",
+        "Mens Rings",
+        "Stackable Rings",
+        "Signet Rings",
+        "Gemstone Rings",
+        "Candy Rings"
+      ],
+      "images": [
+        { "src": "src/assets/img/ring1.jpg", "alt": "Beautiful ring.", "label": "Golden Rings" },
+        { "src": "src/assets/img/ring2.webp", "alt": "Beautiful ring.", "label": "Ring Inspiration" }
+      ]
+    },
+    "necklaces": {
+      "title": "Necklaces",
+      "links": [
+        "Pendant Necklaces",
+        "Mens Necklaces",
+        "Chain Necklaces",
+        "Zodiac Necklaces",
+        "Gemstone Necklaces",
+        "Name Necklaces"
+      ],
+      "images": [
+        { "src": "src/assets/img/necklace1.jpg", "alt": "Beautiful necklace.", "label": "Customized Gifts" },
+        { "src": "src/assets/img/necklace2.webp", "alt": "Beautiful necklace.", "label": "Mothers day gifts" }
+      ]
+    },
+    "bracelets": {
+        "title": "Bracelets",
+        "links": [
+          "Pendant Necklaces",
+          "Mens Necklaces",
+          "Chain Necklaces",
+          "Zodiac Necklaces",
+          "Gemstone Necklaces",
+          "Name Necklaces"
+        ],
+        "images": [
+          { "src": "src/assets/img/bracelet1.jpg", "alt": "Beautiful necklace.", "label": "Customized Gifts" },
+          { "src": "src/assets/img/bracelet2.jpg", "alt": "Beautiful necklace.", "label": "Mothers day gifts" }
+        ]
+      },
+      "earrings": {
+        "title": "Earrings",
+        "links": [
+          "Pendant Necklaces",
+          "Mens Necklaces",
+          "Chain Necklaces",
+          "Zodiac Necklaces",
+          "Gemstone Necklaces",
+          "Name Necklaces"
+        ],
+        "images": [
+          { "src": "src/assets/img/earring1.jpg", "alt": "Beautiful Earring.", "label": "Customized Gifts" },
+          { "src": "src/assets/img/earring2.jpg", "alt": "Beautiful Earring.", "label": "Mothers day gifts" }
+        ]
+      },
+      "gifts": {
+        "title": "Gifts",
+        "links": [
+          "Pendant Necklaces",
+          "Mens Necklaces",
+          "Chain Necklaces",
+          "Zodiac Necklaces",
+          "Gemstone Necklaces",
+          "Name Necklaces"
+        ],
+        "images": [
+          { "src": "src/assets/img/gift1.jpg", "alt": "Beautiful Earring.", "label": "Customized Gifts" },
+          { "src": "src/assets/img/gift2.jpg", "alt": "Beautiful Earring.", "label": "Mothers day gifts" }
+        ]
+      },
+      "mens": {
+        "title": "Mens",
+        "links": [
+          "Pendant Necklaces",
+          "Mens Necklaces",
+          "Chain Necklaces",
+          "Zodiac Necklaces",
+          "Gemstone Necklaces",
+          "Name Necklaces"
+        ],
+        "images": [
+          { "src": "src/assets/img/mens1.jpg", "alt": "Beautiful Earring.", "label": "Customized Gifts" },
+          { "src": "src/assets/img/mens2.jpg", "alt": "Beautiful Earring.", "label": "Mothers day gifts" }
+        ]
+      }
+  }
+  
+  

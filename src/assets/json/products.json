@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "name": "Gemstone ring",
+            "image": "src/assets/img/ring1.jpg",
+            "link": "",
+            "price": "133"
+        },
+        {
+            "name": "Heart Necklace",
+            "image": "src/assets/img/necklace1.jpg",
+            "link": "",
+            "price": "162"
+        },
+        {
+            "name": "Diamond Cuff Bracelet",
+            "image": "src/assets/img/bracelet1.jpg",
+            "link": "",
+            "price": "323"
+        },
+        {
+            "name": "Ring Set",
+            "image": "src/assets/img/ring2.webp",
+            "link": "",
+            "price": "171"
+        },
+        {
+            "name": "Golden Cuff Link Bracelet",
+            "image": "src/assets/img/bracelet2.jpg",
+            "link": "",
+            "price": "222"
+        },
+        {
+            "name": "Insignia Ring",
+            "image": "src/assets/img/mens1.jpg",
+            "link": "",
+            "price": "113"
+        },
+        {
+            "name": "Insignia Ring",
+            "image": "src/assets/img/mens1.jpg",
+            "link": "",
+            "price": "113"
+        },
+        {
+            "name": "Insignia Ring",
+            "image": "src/assets/img/mens1.jpg",
+            "link": "",
+            "price": "113"
+        }
+    ]
+}

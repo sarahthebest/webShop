@@ -1,50 +1,24 @@
 import ProductBox from "../common/ProductBox";
-import { useEffect, useState } from "react";
+import jewelry from "../../assets/json/products.json";
 
 const Carousel = () => {
-  const [products, setProducts] = useState([]);
-
-  
-
-  useEffect(() => {
-    const fetchProducts = async () => {
-      try {
-        const responses = await Promise.all([
-          fetch("https://fakestoreapi.com/products/6"),
-          fetch("https://fakestoreapi.com/products/7"),
-          fetch("https://fakestoreapi.com/products/8"),
-        ]);
-
-        const data = await Promise.all(responses.map(res => res.json()));
-        setProducts(data);
-        console.log(data);
-      } catch (error) {
-        console.error("Error fetching products:", error);
-      }
-    };
-    fetchProducts();
-  }, []);
-
-  if (!Array.isArray(products)) {
-    return <div>No products available</div>;
-  }
-
   return (
-    <div className="carousel w-100 h-1/3 mt-10 px-20 border-b-black">
-      <h2 className="text-5xl uppercase " style={{ fontFamily: "impact" }}>
-        Bestsellers
-      </h2>
-      <div className="products flex flex-row gap-20">
-      {products.map((product, id) => (
-          <ProductBox
-          key={id}
-          ProductTitle={product.title}
-          ProductID={product.id}
-          ProductImage={product.image}
-          ProductPrice={product.price}
-          />
-        ))}
+    <div className="carousel w-screen flex flex-col relative align-items-center pt-10 border-b-black bg-gray-100">
+      <h2 className="text-6xl ms-10 uppercase font-bebas">Bestsellers</h2>
+      <div className="products flex flex-row mt-6">
+        <div className="gridColumns w-full gap-x-10 sm:gap-x-10
+         grid grid-rows-1 ps-10 sm:ps-10">
+          {jewelry.products.map((product, index) => (
+            <ProductBox
+              key={index}
+              ProductTitle={product.name}
+              ProductImage={product.image}
+              ProductPrice={product.price}
+              ProductLink={product.link}
+            />
+          ))}
         </div>
+      </div>
     </div>
   );
 };

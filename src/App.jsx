@@ -4,6 +4,8 @@ import Navbar from './screens/common/Navbar';
 import Header from './screens/startpage/Header';
 import NotificationBar from './screens/common/NotificationBar';
 import Carousel from './screens/startpage/Carousel';
+import GridContainer from './screens/startpage/Categories';
+import Footer from './screens/common/Footer';
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <NotificationBar />
       <Navbar />
       <Header />
+      <GridContainer />
       <Carousel />
+      <Footer />
     </>
   );
 }

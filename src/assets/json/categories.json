@@ -1,0 +1,34 @@
+{
+  "jewelry_categories": [
+    {
+      "name": "Rings",
+      "image": "src/assets/img/ring1.jpg",
+      "image_hover": "src/assets/img/ring2.webp"
+    },
+    {
+      "name": "Necklaces",
+      "image": "src/assets/img/necklace3.jpg",
+      "image_hover": "src/assets/img/necklace2.webp"
+    },
+    {
+      "name": "Bracelets",
+      "image": "src/assets/img/bracelet1.jpg",
+      "image_hover": "src/assets/img/bracelet2.jpg"
+    },
+    {
+      "name": "Earrings",
+      "image": "src/assets/img/earring1.jpg",
+      "image_hover": "src/assets/img/earring2.jpg"
+    },
+    {
+      "name": "Gifts",
+      "image": "src/assets/img/gift1.jpg",
+      "image_hover": "src/assets/img/gift2.jpg"
+    },
+    {
+      "name": "Mens",
+      "image": "src/assets/img/mens1.jpg",
+      "image_hover": "src/assets/img/mens2.jpg"
+    }
+  ]
+}

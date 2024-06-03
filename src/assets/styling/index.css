@@ -1,12 +1,13 @@
+@font-face {
+  src: url(src\assets\BebasNeue-Regular.woff2) format("woff2");
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 :root {
   font-family: fantasy;
-}
-#root {
-  height: 200vh;
 }
 
 .btn {
@@ -18,7 +19,6 @@
 /* NAVBAR */
 .nav {
   width: 100%;
-  z-index: 3;
   height: 156px;
 }
 #logo {
@@ -37,7 +37,7 @@
   width: 100%;
   left: 0;
   z-index: 1;
-  margin-top: 14px;
+  margin-top: 12px;
   height: 220px;
 }
 
@@ -49,12 +49,11 @@
   column-gap: 20px;
   width: 400px;
   margin-top: 20px;
-  margin-left: 30rem;
 }
 
 .menuIMG {
   height: 160px;
-  width: 260px;
+  width: 200px;
 }
 
 div.subMenu ul li {
@@ -83,9 +82,34 @@ div.imgContainer h4 {
   height: 100%;
   z-index: 0;
 }
+/* CATEGORIES */
+
+.gridContainer {
+  height: fit-content;
+}
+.gridCell {
+  min-height: 260px;
+}
+.text-bg {
+  z-index: -1;
+}
 
 /* CAROUSEL */
+.gridColumns {
+  height: 420px;
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+  grid-auto-flow: column;
+}
+.imagePreview {
+  height: 300px;
+}
+.productBox {
+  width: 230px;
+}
 
-.imagePreview{
-  height: 320px;
+
+/* FOOTER */
+.footer {
+  height: 300px;
 }
