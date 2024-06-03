@@ -1,3 +1,5 @@
+import Button from "../common/Button";
+
 const Header = () => {
   return (
     <div
@@ -16,7 +18,7 @@ const Header = () => {
        flex flex-col justify-center items-center col1 gap-3 border-black">
         <h2 className="text-4xl font-bebas">Find your style</h2>
         <h3>Buy 2 get 1 limited time only while stocks lasts!</h3>
-        <button className="btn">SHOP NOW</button>
+        <Button />
       </div>
     </div>
   );

@@ -1,8 +1,8 @@
 const Footer = () => {
     return ( 
-        <div className="footer bg-gray-200 px-32 pt-10">
+        <div className="footer bg-gray-200 pt-10">
             <div className="flex flex-row justify-between divide-x">
-            <div className="flex flex-row gap-10">
+            <div className="flex flex-row gap-10 mx-auto">
             <div className="flex flex-col gap-2">
             <h3 className="font-bebas text-2xl">Help</h3>
             <ul>
@@ -27,9 +27,6 @@ const Footer = () => {
                 <li>Membership</li>
             </ul>
             </div>
-            </div>
-            <div className="flex flex-col">
-                <h2 className="font-bebas text-4xl">Become a member!</h2>
             </div>
             </div>
         </div>
