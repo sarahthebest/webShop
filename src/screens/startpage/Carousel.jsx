@@ -3,7 +3,8 @@ import jewelry from "../../assets/json/products.json";
 
 const Carousel = () => {
   return (
-    <div className="carousel w-screen flex flex-col relative align-items-center pt-10 border-b-black bg-gray-100">
+    <div className="carousel w-full flex flex-col relative 
+     align-items-center pt-10 border-b-black bg-gray-100">
       <h2 className="text-6xl ms-10 uppercase font-bebas">Bestsellers</h2>
       <div className="products flex flex-row mt-6">
         <div className="gridColumns w-full gap-x-10 sm:gap-x-10
